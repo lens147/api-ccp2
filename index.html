@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/normalize.css">
+        <link rel="stylesheet" href="assets/style.css">
+        <title>Document</title>
+    </head>
+    <body>
+
+        <header>
+            
+        </header>
+
+        <main>
+
+            <h1>translate</h1>
+
+            <div class="flex">
+                <button id="switch" onclick="change()"></button>
+            </div>
+
+            <div class="flex mid">
+
+                <div class="lang">
+
+                    <select class="select" id="langAtraduire">
+                        <option value="auto">auto</option>
+                    </select>
+                </div> 
+                
+
+
+                <textarea id="text" cols="50" rows="10"></textarea>
+                <textarea id="trad" cols="50" rows="10"></textarea>
+
+                <div id="trad-btn">
+                    <select class="select" id="monselect">
+                        <option value="">Traduire..</option>
+                    </select>
+                </div>
+
+            </div>
+
+        </main>
+
+
+        <script type="module" src="assets/function.js"></script>
+        <script type="module" src="assets/createSelect.js"></script>
+
+
+    </body>
+</html>
